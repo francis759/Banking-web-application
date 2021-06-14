@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+html{
+    font-family: 16px;
+}
+body{
+    background: url(Images/midland-bank-sign.png)no-repeat center;
+    height: 100vh;
+}
+.login-body{
+    background-color: rgba(0, 0, 0,0);
+    margin:120px auto;
+    max-width: 380px;
+    width: 100%;
+    padding: 30px 25px;
+    border-radius: 10px;
+    border:1px solid #fff;
+}
+#bank-logo{
+    position: absolute;
+    margin-top: -60px;
+    display: block;
+    left: 47%;
+} 
+.input-section{
+    padding: 5px;
+    display: flex;
+    background-color: #fff;
+    align-items: center;
+    margin: 35px 0;
+    height: 40px;
+}
+.input-section img{
+    width: 15px;
+    height: 15px;
+    margin-right: 15px;
+}
+.input-section input{
+    width: 100%;
+    outline: none;
+    height: 100%;
+    border: none;
+    font-size: 1em;
+}
+#login-btn{
+    cursor: pointer;
+    border: none;
+    width: 100%;
+    background: linear-gradient(135deg, #2269eb, #0021db);
+    height: 40px;
+    outline: none;
+    border: none;
+    font-size: 1.2em;
+    color: #fff;
+}
+.options{
+    margin: 20px 0;
+}
+.options label, .options a{
+    color: #fff;
+}
+.options a{
+    float: right;
+    font-size: .85em;
+}
+.default-account{
+    margin: 10px 20px;
+}
+.default-account p{
+    font-size: .9em;
+    color: #fff;
+}.home-body{
+    background: url(Images/midland-bank-sign.png)no-repeat center;
+}
+.navbar{
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top:0;
+    background-color: #444;
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    margin: 20px 0px;
+}
+.navbar ul li{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 25px;
+    transition: all ease-in 0.5s;
+}
+.navbar ul li img{
+    width: 25px;
+    height: 20px;
+    margin: 0px 25px;
+}
+.navbar ul li a:hover{
+    color: #444;
+    background-color: #fff;
+    box-shadow: 0 0 10px #fff;
+}
+.home-logo{
+    position: absolute;
+    float: left;
+    left: 30px;
+}
+.home-logo img{
+    width: 45px;
+    height: 45px;
+}
+.home-search-section{
+    background: #fff;
+}
+.current-user{
+    position: absolute;
+    float: right;
+    border: 2px solid #f7f7f7;
+    right: 15px;
+    border-radius: 15px;
+    width: 30px;
+    height: 30px;
+    font-size: .65em;
+    text-align: center;
+    color: #fff;
+}

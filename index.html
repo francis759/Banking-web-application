@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body onload="createDefaultAccount()">
+    <div class="login-body">
+        <img id="bank-logo" src="Images/42492-bank-icon.png" alt="">
+        <div class="input-section">
+            <img src="Images/user.png" alt="">
+            <input id="Username-holder" type="text" placeholder="Username">
+        </div>
+        <div class="input-section">
+            <img src="Images/pass.png" alt="">
+            <input id="password-holder" type="password" placeholder="Password">
+        </div>
+        <div>
+            <button id="login-btn" onclick="loginIn()">Login</button>
+        </div>
+        <div class="options">
+            <input type="checkbox">
+            <label for="rememberme">Remember Me</label>
+            <a href="#"><i>Forgot Password?</i> </a>
+        </div>
+    </div>
+    <div class="default-account">
+        <p>Default Account </p>
+        <p>username: <i>Admin</i> </p>
+        <p>password: <i>admin</i> </p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
