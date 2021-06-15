@@ -23,3 +23,6 @@ function displayCurrentUserMenu(){
 function hideUserMenu(sender){
     let menu = document.getElementById("dropdown-menu");
 }
+function logOut(){
+    location.href="index.html";
+}

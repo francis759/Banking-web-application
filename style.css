@@ -121,16 +121,26 @@ body{
     right: 25px;
 }
 .current-user{
+    
     cursor: pointer;
+    background-color: #fff;
     margin-right: 10px;
-    border: 2px solid #f7f7f7;
+    border: 2px solid blue;
     border-radius: 17px;
     padding: 3px;
     width: 34px;
     height: 34px;
+    align-items: center;
     font-size: .60em;
     text-align: center;
     color: #fff;
+}
+.current-user img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 #dropdown-menu {
     margin-top: 10px;
@@ -139,27 +149,30 @@ body{
     display: none;
     position: absolute;
     right: 5px;
-    color: rgb(129, 128, 128);
+    color: rgb(53, 51, 51);
     background-color: #fff;
     min-width: 160px;
     font-size: .8em;
-    padding: 12px 10px;
+    padding: 5px 0;
     z-index: 1;
 }
 .dropdown-content{
-    margin: 10px 0;
+    padding: 10px;
+    display: flex;
     align-items: center;
 }
+.dropdown-content:hover{
+    background-color: #CCC;
+}
 .dropdown-content img{
-    display: block;
-    float: right;
     width: 15px;
     height: 15px;
+    margin-left: 80px;
 }
 .menu-separator{
     height: 1px;
     width: 100%;
     background-color: #CCC;
     margin: 5px 0;
-    margin-top: 20px;
+    margin-top: 10px;
 }
