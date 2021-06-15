@@ -17,3 +17,9 @@ function loginIn(){
         window.alert("Invalid entry. Please try again");
     }
 }
+function displayCurrentUserMenu(){
+    document.getElementById("dropdown-menu").style.display="block";
+}
+function hideUserMenu(sender){
+    let menu = document.getElementById("dropdown-menu");
+}

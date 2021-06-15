@@ -99,11 +99,6 @@ body{
     padding: 8px 25px;
     transition:  0.5s;
 }
-.navbar ul li img{
-    width: 25px;
-    height: 20px;
-    margin: 0px 25px;
-}
 .navbar ul li a:hover{
     color: #f1f1f1;
 }
@@ -119,15 +114,52 @@ body{
 .home-search-section{
     background: #fff;
 }
-.current-user{
+.current-usercontainer{
     position: absolute;
     float: right;
+    align-items: center;
+    right: 25px;
+}
+.current-user{
+    cursor: pointer;
+    margin-right: 10px;
     border: 2px solid #f7f7f7;
-    right: 15px;
-    border-radius: 15px;
-    width: 30px;
-    height: 30px;
-    font-size: .65em;
+    border-radius: 17px;
+    padding: 3px;
+    width: 34px;
+    height: 34px;
+    font-size: .60em;
     text-align: center;
     color: #fff;
+}
+#dropdown-menu {
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 2px;
+    display: none;
+    position: absolute;
+    right: 5px;
+    color: rgb(129, 128, 128);
+    background-color: #fff;
+    min-width: 160px;
+    font-size: .8em;
+    padding: 12px 10px;
+    z-index: 1;
+}
+.dropdown-content{
+    margin: 10px 0;
+    align-items: center;
+}
+.dropdown-content img{
+    display: block;
+    float: right;
+    width: 15px;
+    height: 15px;
+}
+.menu-separator{
+    height: 1px;
+    width: 100%;
+    background-color: #CCC;
+    margin: 5px 0;
+    margin-top: 20px;
 }

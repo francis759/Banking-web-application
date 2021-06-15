@@ -8,7 +8,7 @@
     <link rel="icon" href="Images/42492-bank-icon.png">
     <title>Homepage</title>
 </head>
-<body class="home-body">
+<body class="home-body" onclick="hideUserMenu(this)">
     <nav class="navbar" >
         <div class="home-logo">
             <a href=""><img src="Images/42492-bank-icon.png" alt=""></a>
@@ -24,13 +24,26 @@
                     <input type="text">
                 </div>
             </li>
-            <li>
-                <img src="Images/settings.png" alt="">
-            </li>
         </ul>
-        <div class="current-user">
-            <img src="" alt="User-logo">
+        <div class="current-usercontainer">
+            <div class="current-user" onclick="displayCurrentUserMenu()">
+                <img src="" alt="user-pic">
+            </div>
+            <div id="dropdown-menu">
+                <div class="dropdown-content">
+                    <a>Log Out</a>
+                </div>
+                <div class="dropdown-content">
+                    <a>View role</a>
+                </div>
+                <div class="menu-separator"></div>
+                <div class="dropdown-content">
+                    <a>Settings</a>
+                    <img src="Images/settings.png" alt="">
+                </div>
+            </div>
         </div>
     </nav>
+    <script src="script.js"></script>
 </body>
 </html>
